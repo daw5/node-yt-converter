@@ -1,6 +1,6 @@
 {
-  "name": "yt-converter",
-  "version": "2.2.2",
+  "name": "daw5-yt-converter",
+  "version": "2.2.3",
   "description": "A youtube video converter for mp3 and mp4 using node-ytdl and ffmpeg",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -19,7 +19,7 @@
   "author": "RogelioLB",
   "license": "ISC",
   "dependencies": {
-    "@distube/ytdl-core": "github:ToddyTheNoobDud/ytdl-core-stuff",
+    "@distube/ytdl-core": "^4.16.6",
     "ffmetadata": "^1.7.0",
     "ffmpeg-static": "^4.4.0"
   },
